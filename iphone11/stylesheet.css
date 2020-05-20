@@ -1,0 +1,647 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f5f5f7;
+}
+
+.navcontent {
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.87em;
+    list-style: none;
+    height: 44px;
+    line-height: 3.3;
+    margin-bottom: 0px;
+}
+
+body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0;
+    line-height: 1.47059;
+    color: #333;
+}
+
+.localnav-tray {
+    height: 49px;
+    width: 100%;
+    border-bottom: solid 1px lightgrey;
+}
+
+.localnavText {
+    height: 49px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.trayLeft {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.localnavLinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 160px;
+    margin-top: 0px;
+}
+
+.localnavLinks {
+    list-style: none;
+    font-size: small;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 22px;
+    padding-top: 20px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightContent {
+    width: 428px;
+    float: right;
+}
+
+.leftContent {
+    width: 490px;
+    text-align: center;
+}
+
+.infoStrip {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+
+.info {
+    width: 163;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 600;
+}
+
+.info i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.infoHelp {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    text-align: right;
+}
+
+.infoHelp i {
+    font-size: 30px;
+    width: 55px;
+}
+
+.infoHelp .text {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 600;
+}
+
+.infoHelp .text a {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+a {
+    text-decoration: none !important;
+    color: #0070c9;
+    font-size: 14px;
+}
+
+.title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.button {
+    width: 396px;
+    height: 68px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    display: flex;
+    padding: 12px 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: #888;
+}
+
+.button .left {
+    padding-top: 22px;
+    font-weight: bold;
+}
+
+.button .leftWithSub {
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.button .right {
+    padding-top: 22px;
+    float: right;
+}
+
+.button .leftSubtext {
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.button .leftSubtext sup {
+    font-size: 8px;
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid rgb(205,205,205);
+}
+
+.colorSelector {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.colorButton {
+    width: 197px;
+    height: 106px;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+    margin: 7px 7px;
+    text-align: center;
+}
+
+.colorButton:hover {
+    border-color: #888;
+}
+
+.color {
+    padding-top: 27px;
+}
+
+.color img {
+    height: 32px;
+    width: 32px;
+}
+
+.color .colorText {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #333;
+}
+
+.capSelector {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.capButton {
+    width: 197px;
+    height: 106px;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+    margin: 7px 7px;
+    text-align: center;
+}
+
+.capButton:hover {
+    border-color: #888;
+}
+
+.capButton .cap {
+    padding-top: 27px;
+    font-size: 29px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .007em;
+    color: #333;
+}
+
+.capButton .cap .unit {
+    font-size: 19px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: .012em;
+}
+
+.capButton .cap sup {
+    font-size: .6em;
+    vertical-align: top;
+    position: relative;
+    bottom: -8px;
+}
+
+.capButton .cap .price {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.subtext {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.buttonWithSubtext {
+    width: 396px;
+    height: 130px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.buttonWithSubtext:hover {
+    border-color: #888;
+}
+
+.buttonWithSubtext .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+
+.buttonWithSubtext .left {
+    padding-top: 22px;
+    font-weight: bold;
+}
+
+.buttonWithSubtext .right {
+    padding-top: 22px;
+    float: right;
+}
+
+.buttonWithSubtext .subtext {
+    padding-top: 10px;
+}
+
+.fadedText {
+    font-size: 14px;
+    line-height: 1.42861;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    color: #888;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.finalPrice {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: #fafafa;
+}
+
+.finalPrice .price {
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: .004em;
+    font-weight: 600;
+}
+
+.finalPrice .fadedText {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+
+.submit {
+    width: 303px;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    color: #fff;
+    padding: 4px 15px;
+    text-align: center;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+}
+
+.finalPrice .form i {
+    color: #0070c9;
+    font-size: 22px;
+    padding-left: 8px;
+}
+
+.finalPrice .info {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+}
+
+.finalPrice .info i {
+    font-size: 20px;
+}
+
+.finalPrice .subinfo {
+    width: 40%;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.finalPrice .second {
+    width: 50%;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.finalPrice .subinfo a {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.finalPrice .subinfo .fadedText {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background: #000;
+    z-index: -1;
+}
+
+.slide {
+    display: none;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slide img {
+    height: 100%;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  left: 18;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right: 18;
+}
+
+.prev, .next {
+    background-color: hsla(0,0%,83.9%,.25);
+    color: hsla(0,0%,53.3%,.8);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.prev:hover, .next:hover {
+  background-color: hsla(0,0%,83.9%,.3);
+}
+
+.dots {
+    margin-top: -23px;
+    z-index: 99;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 4px;
+  background-color: hsla(0,0%,53.3%,.4);;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.billboard {
+    height: 437px;
+    width: 100%;
+    text-align: center;
+    padding-top: 63px;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.billboard img {
+    height: 380px;
+}
+
+.billboard .text {
+    width: 384px;
+    color: #000;
+    padding-top: 100px;
+}
+
+.billboard .text .boldedBillboard {
+    font-size: 40px;
+    padding: 0 46px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.billboard a {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.appletv {
+    height: 320px;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.appletv .text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    padding-top: 86px;
+    margin-left: 240px;
+    margin-right: 40px;
+}
+
+.appletv .promotext {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+}
+
+.appletv .legal {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    margin-bottom: 16px;
+}
+
+.appletv a {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #6bf;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 12px 439.5px;
+}
+
+.footer .legal {
+    font-size: 11px;
+    line-height: 1.36364;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    color: #888;
+    border-bottom: 1px solid rgb(205,205,205);
+}
+
+.footer .breadcrumbs {
+    padding: 20px 0;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+.footer .breadcrumbs span::before {
+    content: "❯";
+    padding: 0 14px;
+    color: rgb(200,200,200);
+    pointer-events: none;
+    text-decoration: none;
+}

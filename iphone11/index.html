@@ -1,0 +1,281 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/248e0fafdd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+</head>
+
+<body>
+        <nav class="navbar">
+            <div class="navcontent">
+                <ul class="navlist">
+                    <li><i class="fab fa-apple"></i></li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>Watch</li>
+                    <li>TV</li>
+                    <li>Music</li>
+                    <li>Support</li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-shopping-bag"></i></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="localnav-tray">
+            <div class="localnavText">
+                <div class="trayLeft">iPhone 11 Pro</div>
+                <div class="trayRight">
+                    <ul class="localnavLinks">
+                        <li>Overzicht</li>
+                        <li>Specificaties</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="leftContent">
+                <img src="images/11-pro/iphone-11-pro-select-2019_GEO_EMEA.jpg" id="phone">
+
+                <div class="infoStrip">
+                    <div class="info">
+                        <i class="fas fa-box"></i>
+                        <div>Gratis bezorgd</div>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-cog"></i>
+                        <div>Gratis Online Persoonlijke Configuratie</div>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-undo"></i>
+                        <div>Gratis retourneren</div>
+                    </div>
+                </div>
+
+                <div class="infoHelp">
+                    <i class="fas fa-comments"></i>
+                    <div class="text">
+                        Heb je vragen over de aankoop van een iPhone?
+                        <div><a href="#">Chat met een iPhone Specialist</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightContent">
+                <div>
+                    <div class="title">
+                        Koop iPhone 11 Pro
+                    </div>
+                    Vanaf € 859 bij inruilen**
+                    <br /><br /><br />
+
+                    <b>Heb je een iPhone die je wilt inruilen?</b> <br />
+                    <a href="#">Lees hier hoe Apple Trade In werkt</a>
+
+                    <div class="button">
+                        <span class="left">Ja</span>
+                        <span class="right">Vanaf € 859**</span>
+                    </div>
+
+                    <div class="button">
+                        <span class="left">Nee</span>
+                        <span class="right">Vanaf € 1159**</span>
+                    </div>
+
+                    <hr />
+
+                    <b>Kies het model.</b>
+
+                    <div class="button" onclick="changeModel(0)">
+                        <span class="leftWithSub">iPhone 11 Pro<div class="leftSubtext">5,8-inch display<sup>1</sup></div></span>
+                        <span class="right">Vanaf € 1159</span>
+                    </div>
+
+                    <div class="button" onclick="changeModel(1)">
+                        <span class="leftWithSub">iPhone 11 Pro Max<div class="leftSubtext">6,5-inch display<sup>1</sup></div></span>
+                        <span class="right">Vanaf € 1259</span>
+                    </div>
+
+                    <hr />
+
+                    <b>Kies de uitvoering.</b>
+
+                    <div class="colorSelector">
+                        <div class="colorButton" onclick="changeColor(0)">
+                            <div class="color">
+                                <img src="images/colors/finish-space-grey.jpg" />
+                                <div class="colorText">Spacegrijs</div>
+                            </div>
+                        </div>
+                        <div class="colorButton" onclick="changeColor(1)">
+                            <div class="color">
+                                <img src="images/colors/finish=silver.jpg" />
+                                <div class="colorText">Zilver</div>
+                            </div>
+                        </div>
+                        <div class="colorButton" onclick="changeColor(2)">
+                            <div class="color">
+                                <img src="images/colors/finish-midnight-green.jpg" />
+                                <div class="colorText">Middernachtgroen</div>
+                            </div>
+                        </div>
+                        <div class="colorButton" onclick="changeColor(3)">
+                            <div class="color">
+                                <img src="images/colors/finish-gold.jpg" />
+                                <div class="colorText">Goud</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <b>Kies de capaciteit.</b>
+
+                    <div class="capSelector">
+                        <div class="capButton">
+                            <div class="cap">
+                                64 <span class="unit">GB<sup>2</sup></span>
+                                <div class="price">€ 1.159,00</div>
+                            </div>
+                        </div>
+                        <div class="capButton">
+                            <div class="cap">
+                                256 <span class="unit">GB<sup>2</sup></span>
+                                <div class="price">€ 1.329,00</div>
+                            </div>
+                        </div>
+                        <div class="capButton">
+                            <div class="cap">
+                                512 <span class="unit">GB<sup>2</sup></span>
+                                <div class="price">€ 1.559,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <b>Wil je extra dekking met AppleCare+?</b>
+                    <div class="subtext">
+                        Breid je hardware- en softwaredekking uit en krijg met voorrang ondersteuning van de mensen die iPhone het beste kennen.
+                    </div>
+
+                    <div class="button">
+                        <span class="left">Geen AppleCare++-dekking</span>
+                    </div>
+
+                    <div class="buttonWithSubtext">
+                        <div class="container">
+                            <span class="left">AppleCare+</span>
+                            <span class="right">€ 299,00</span>
+                        </div>
+                        <div class="subtext">
+                            Tot twee jaar technische ondersteuning en dekking tegen hardwarereparaties en schade als gevolg van een ongelukje.
+                        </div>
+                    </div>
+
+                    <div class="fadedText">Inclusief de assurantiebelasting van toepassing</div>
+                    <a href="#">Meer informatie</a>
+
+                    <div class="finalPrice">
+                        <div class="price">€ 1.159,00</div>
+                        <div class="fadedText">Inclusief btw en wettelijke heffingen t.w.v. ca. € 206,00.*</div>
+
+                        <div class="form">
+                            <button class="submit">In Shopping Bag</button>
+                            <i class="fas fa-heart"></i>
+                        </div>
+
+                        <div class="info">
+                            <div class="subinfo">
+                                <i class="fab fa-apple"></i>
+                                <div>
+                                    Ophalen:
+                                    <div><a href="#">Controleer verkrijgbaarheid</a></div>
+                                </div>
+                            </div>
+                            <div class="subinfo second">
+                                <i class="fas fa-box"></i>
+                                <div>
+                                    Levering:
+                                    <div class="fadedText">Di 7 Jan – Gratis</div>
+                                    <div><a href="#">Meer bezorgopties</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="slide">
+                    <img src="images/promo_images/promo_gallery_1.jpg" />
+                </div>
+                <div class="slide">
+                    <img src="images/promo_images/promo_gallery_2.jpg" />
+                </div>
+                <div class="slide">
+                    <img src="images/promo_images/promo_gallery_3.jpg" />
+                </div>
+                <div class="slide">
+                    <img src="images/promo_images/promo_gallery_4.jpg" />
+                </div>
+                <div class="slide">
+                    <img src="images/promo_images/promo_gallery_5.jpg" />
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)" style="display:none;">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+
+        <div class="billboard">
+            <img src="images/compare/iphone_compare_models.jpg" />
+            <div class="text">
+                <div class="boldedBillboard">Vergelijk alle iPhone-modellen</div>
+                <a href="#">Bekijk welke iPhone het best bij je past &#10095;</a>
+            </div>
+        </div>
+
+        <div class="appletv">
+            <div class="text">
+                <i class="fab fa-apple"></i>tv+
+                <div class="promotext">Licht. Camera. iPhone.</div>
+                <div class="legal">Bij elke nieuwe iPhone krijg je één jaar Apple TV+.***</div>
+                <a href="#">Kijk nu in de Apple TV-app <i class="far fa-play-circle"></i></a>
+            </div>
+            <img src="images/promo_images/apple-tv.jpg" />
+        </div>
+
+        <div class="footer">
+            <div class="legal">
+                <p>* Geschat bedrag. Heffingen kunnen aan verandering onderhevig zijn.</p>
+                <p>** De prijzen van iPhone 11 Pro en iPhone 11 Pro Max gelden bij inruil van een 64‑GB iPhone X. De hogere inruilwaarden gelden alleen bij aankoop van een nieuwe iPhone, afhankelijk van beschikbaarheid en beperkingen. De inruilwaarde is afhankelijk van de staat, het jaar en de configuratie van het device dat je inruilt. Er kunnen verschillen zitten tussen de inruilwaarde online en in de Store. Je moet minimaal 18 jaar zijn. Voor inruilen in de Store moet je een geldig legitimatiebewijs met foto kunnen overleggen. Mogelijk gelden er aanvullende voorwaarden vanuit Apple of de inruilpartners van Apple.</p>
+                <ol>
+                    <li>Het display heeft ronde hoeken die de vorm van het stijlvolle design volgen. Deze hoeken vallen binnen een normale rechthoek. Als rechthoek meet het scherm 14,86 cm (iPhone 11 Pro) of 16,40 cm diagonaal (iPhone 11 Pro Max). Het daadwerkelijke display is kleiner.</li>
+                    <li>Hoeveelheid vrije ruimte is kleiner en varieert vanwege een groot aantal factoren. Voor een standaardconfiguratie (inclusief iOS en meegeleverde apps) is ongeveer 11 GB tot 14 GB aan ruimte nodig, afhankelijk van model en instellingen. Voor meegeleverde apps is ongeveer 4 GB nodig. Je kunt deze apps verwijderen en weer terugzetten. Opslagcapaciteit is afhankelijk van softwareversie en kan per device variëren.</li>
+                </ol>
+                <p>iPhone 11 Pro en iPhone 11 Pro Max zijn spat-, water- en stofbestendig en getest onder gecontroleerde omstandigheden. Ze voldoen aan bestendigheidsnorm IP68 volgens IEC‑standaard 60529 (tot 30 minuten en 4 meter diep). Spat‑, water‑ en stofbestendigheid kunnen na verloop van tijd afnemen als gevolg van normale slijtage. Probeer een natte iPhone niet op te laden. Raadpleeg de handleiding voor instructies met betrekking tot reinigen en drogen. Vloeistofschade valt niet onder de garantie.</p>
+
+                <p>*** 4,99 €/maand na gratis proefperiode. Eén abonnement per ‘Delen met gezin’-groep. Aanbod geldig tot 3 maanden na activering van een in aanmerking komend device. Het abonnement wordt automatisch verlengd totdat het wordt opgezegd. Er zijn beperkingen en andere voorwaarden van toepassing.</p>
+            </div>
+            <div class="breadcrumbs">
+                <i class="fab fa-apple"></i> <span>iPhone</span> <span>iPhone 11 Pro</span> <span>Koop iPhone 11 Pro</span>
+            </div>
+        </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
