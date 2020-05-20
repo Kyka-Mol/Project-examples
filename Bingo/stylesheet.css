@@ -1,0 +1,60 @@
+body{
+    background-color:lightgray;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    border: solid 1px black;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    float: left;
+}
+
+#button{
+    width: 603px;
+    height: 100px;
+    margin-left: 34%;
+    margin-top: 2rem;
+}
+
+#neko{
+    width: 150px;
+    height: 300px;
+    position: absolute;
+}
+
+#num{
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+img{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.bbox{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    float: left;
+}
+
+#bingo{
+    width: 403px;
+    height: 100px;
+    margin-left: 39%;
+}
