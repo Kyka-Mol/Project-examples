@@ -24,15 +24,15 @@ for(i = 0; i < array.length; i++) {
     if (i == 2 || i == 7 || i == 15) { // Blacked out box '3, 8, 16'
         $('#container').append('<div class="bbox" style="background-color: black;" id="'+ array[i] +'">'+array[i]+'</div>');
     } else {
-        $('#container').append('<div class="box" id="'+ array[i] +'">'+array[i]+'</div>');
+        $('#container').append('<div class="box" id="'+ array[i] +'">'+array[i]+'</div>'); //Normal box
     }
 }
 
 console.log(array);
 $(".box").on('click', function(){
-    if (numArray.indexOf(parseInt(this.id)) == -1) return
+    if (numArray.indexOf(parseInt(this.id)) == -1) return //Checks if number has appeared, if not it returns (cancel click)
     console.log(this.id);
-    $('#' + this.id).prepend('<img id="img" src="mark.png" />')
+    $('#' + this.id).prepend('<img id="img" src="mark.png" />') // If the number has appeared, the click gives a checkmark
     checkedNum.push(parseInt(this.id));
 })
 
@@ -42,10 +42,10 @@ var count = numClick();
 function numClick() {
     var num = randomNumber();
 
-    if (numArray.indexOf(num) > -1) {
-        numClick();
+    if (numArray.indexOf(num) > -1) { //Checks for duplicate
+        numClick();                   //Restart function if dupe
     } else {
-        document.getElementById("num").textContent = num;
+        document.getElementById("num").textContent = num;   //If not dupe, new number
         numArray.push(num);
     }
 
@@ -54,10 +54,6 @@ function numClick() {
 
 var sortedNum = array;
 var checkedNum = [];
-
-function checkNum(num) {
-    checkedNum.push(num);
-}
 
 console.log(checkedNum);
 console.log(sortedNum);
