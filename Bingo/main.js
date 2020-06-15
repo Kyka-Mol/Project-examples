@@ -10,9 +10,9 @@ function randomNumber() { //Generates random num
 var array = []; //Array for bingo list
 for (i = 0; i < 18; i++) { //Loop to get 18 random num
    var random = randomNumber();
-   if (array.indexOf(random) > -1) {
-       i = i - 1;
-       continue;
+   if (array.indexOf(random) > -1) { // Checks index of array (random), if the number is not in the array JS gives it -1.
+       i = i - 1;                    // If the number is in the array it will always be higher than -1. 
+       continue;                     // Then it repeats loop until new number.
    }
 
    array.push(random);
