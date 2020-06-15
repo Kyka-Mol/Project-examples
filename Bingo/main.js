@@ -58,7 +58,7 @@ var checkedNum = [];
 console.log(checkedNum);
 console.log(sortedNum);
 
-function checkBingo() {
+function checkBingo() {                     //Checks if bingo is valid
     var firstRow = sortedNum.slice(0, 6);
     var secondRow = sortedNum.slice(6, 12);
     var thirdRow = sortedNum.slice(12, 18);
@@ -116,5 +116,3 @@ setInterval(function() {
     if (pause) return;
     numClick();
 }, 1000);
-
-// pause = true;
