@@ -18,10 +18,10 @@ for (i = 0; i < 18; i++) { //Loop to get 18 random num
    array.push(random);
 }
 
-array.sort((a, b) => a - b);
+array.sort((a, b) => a - b); // Sort array ASC
 
 for(i = 0; i < array.length; i++) {
-    if (i == 2 || i == 7 || i == 15) {
+    if (i == 2 || i == 7 || i == 15) { // Blacked out box '3, 8, 16'
         $('#container').append('<div class="bbox" style="background-color: black;" id="'+ array[i] +'">'+array[i]+'</div>');
     } else {
         $('#container').append('<div class="box" id="'+ array[i] +'">'+array[i]+'</div>');
