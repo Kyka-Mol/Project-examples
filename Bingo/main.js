@@ -2,13 +2,13 @@ var pause = false;
 
 document.getElementById("neko").style.opacity = 0;
 
-function randomNumber() {
+function randomNumber() { //Generates random num
     var num = Math.floor(Math.random() * 99) + 1;
     return num;
 }
 
-var array = [];
-for (i = 0; i < 18; i++) {
+var array = []; //Array for bingo list
+for (i = 0; i < 18; i++) { //Loop to get 18 random num
    var random = randomNumber();
    if (array.indexOf(random) > -1) {
        i = i - 1;
