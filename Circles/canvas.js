@@ -70,8 +70,8 @@ var mouse = {
     y: undefined,
 }
 
-var maxRadius = 40;
-var minRadius = 2;
+var maxRadius = 40;	//Max expand size
+var minRadius = 2;	//Min expand size
 
 var colorArray = 
 [
@@ -148,8 +148,6 @@ function Circle(x, y, dx, dy, radius) {
         }
 
         this.draw();
-    
-        console.log("anime");
 
     }
 }
